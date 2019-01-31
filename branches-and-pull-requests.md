@@ -32,7 +32,7 @@ git checkout -b hotfix/2342443-typo-breaking-code
 ### Pull Requests
 Pull Request should be as clear as possible. The description on a pull request on Github should include the following:
 
-See [pr-template](www.github.com/somelinkhere)
+See [Pull Request Template](pull_request_template.md)
 
 ##### 1. Summary
 Context or a summary of the changes introduced. This includes anything removed, added on, or modified.
