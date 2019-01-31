@@ -12,9 +12,15 @@ During the development process developers should be checking-out new branches of
 
 `<category>/<teamwork-id>-<some-name-here>`
 
+For releases and hotfixes name convention should follows
+
+`<category>-version-number`
+
 __Category__: Indicates what level of priority or stage the changes are for.
 
 __TeamWork ID__: The teamwork id is a reference to task the code is related to.
+
+__Version Number__: Number represents the current application version.
 
 ```
 git checkout develop
@@ -27,6 +33,10 @@ git checkout -b feature/2345853-form-button
 git checkout -b UAT/2342235-missing-functionality
 ---------------------------------------------------
 git checkout -b hotfix/2342443-typo-breaking-code
+---------------------------------------------------
+git checkout -b release-2.0.0
+---------------------------------------------------
+git checkout -b hotfix-2.0.1
 ```
 
 ### Pull Requests
