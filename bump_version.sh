@@ -68,7 +68,7 @@ if [ -f VERSION ]; then
     git add CHANGELOG.md VERSION
     if [ -f "package.json" ]; then
       echo "Bumping version on package.json"
-      npm version ${INPUT_STRING}
+      npm version ${INPUT_STRING} --allow-same-version
       git add package.json
     fi
     git commit -m "Bump version to ${INPUT_STRING}."
@@ -95,7 +95,7 @@ else
         git add VERSION CHANGELOG.md
         if [ -f "package.json" ]; then
           echo "Bumping version on package.json"
-          npm version ${INPUT_STRING}
+          npm version 0.1.0 --allow-same-version
           git add package.json
         fi
         git commit -m "Add VERSION and CHANGELOG.md files, Bump version to v0.1.0."

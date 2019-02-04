@@ -64,7 +64,7 @@ git checkout -b hotfix-1.2.1
 git commit -m "Hotfix change"
 ```
 ##### 3. Version Bump
-After everything checks out, the version should be bumped.
+After everything checks out, the version should be bumped using a [script](/bump_version.sh) or done manually.
 ```
 ./bump-version.sh 1.2.1 (can be done manually too)
 git commit -a -m "Bumped version number to 1.2.1"
