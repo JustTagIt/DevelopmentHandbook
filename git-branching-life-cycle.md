@@ -30,6 +30,8 @@ Release branches are branched off develop and represents a potential ready to go
 ##### 2. QA The Release Branch
 Before releasing new code, QA should be making sure that all tickets in the release should be QA'd on the staging environment that holds the release code.
 
+__[ NOTE: The Following Steps (3-5) Should be done by the D&T tech lead or "code guardian"]__
+
 ##### 3. Version Bump
 After everything checks out, the version should be bumped.
 ```
