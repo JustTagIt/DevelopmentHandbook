@@ -59,6 +59,11 @@ It is important to lay out a step by step way to reproduce the solution. The las
 The checklist provided is intended to help the developer review their own code and assure that new code can be merged in the best state possible. Pull requests will not be blocked if things are not checked off, this is to benefit the team and the individual.
 
 
+### Post Pull Request
+After creating the pull request, it is important to update the TeamWork ticket related to these changes. Make sure to comment on the ticket `PR ready for review & merge [insert pr link]`.
+
+Also make sure to change the TeamWork ticket from `In Progress` to `Dev Complete (PR Completed)`. This helps guide leadership on where to look to review changes that are specific to a request.
+
 ### Code Reviews & Release Reviews
 
 ##### Feature Pull Request
