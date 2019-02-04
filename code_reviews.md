@@ -25,3 +25,6 @@ Although developers should be adhering to linting rules, if there are lint error
 
 ### 3. Staying DRY (Don't Repeat Yourself)
 Code that repeats across different areas of the application should be turned into a class or module so that it lives in one place.
+
+## Merging
+Once the above criteria is met and the Pull Request is approved and merged, click `Delete Branch` to remove the related branch.
