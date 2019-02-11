@@ -1,4 +1,4 @@
-This is a work in progress document for the CSS/SASS best practices (guidelines for styles components css modules will be addressed separately).
+This is a work in progress document for the CSS/SASS best practices.
 
 ## SCSS/SASS guidelines
 It's easy to get a site up with no style guide lines - but eventually cleanly adding sections, changing colors, using other browsers or rendering responsive views becomes a nightmare.
@@ -31,7 +31,7 @@ Be reactive - Cross browser issues don't only occur because of a lack of vendor 
 Normalize its a great base for your css rules to work as expected across various browsers
 https://necolas.github.io/normalize.css/8.0.1/normalize.css
 
-Note: Normalize CSS in included with bootstrap - so if you are using Bootstrap (as most projects call for) then you can skip this step
+Note: Normalize CSS in included with bootstrap - so if you are using Bootstrap (as most projects call for) then you can skip this step.
 
 
 # What about our CSS
