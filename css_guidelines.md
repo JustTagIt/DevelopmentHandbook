@@ -154,7 +154,7 @@ Speaking of columns - They make for a clean lay out for a row but have the inten
 
 **BAD**
 
-	<div className="col-md-5">
+	<div className="col-md-6">
 		<h1> THIS IS THE HEADER </h1>
 	</div>
 
