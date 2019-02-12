@@ -183,6 +183,11 @@ Speaking of columns - They make for a clean lay out for a row but have the inten
 If you need to overwrite bootstrap class globally create a `bootstrap-overwrite.scss` and target the bootstrap classes with new values.
 This is a good practice even if you are not using a CDN and load the bootstrap stylesheet classes locally.
 
+### Media queries
+** ELABORATE ON THIS SECTION
+Avoid numerous media queries within selectors
+
+Add one media query for each break point as the last section within a scoped style sheet.
 
 ##Some Other Notes
 
