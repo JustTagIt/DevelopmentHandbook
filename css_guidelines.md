@@ -1,7 +1,7 @@
 ## SCSS/SASS guidelines
 It's easy to get a site up without these guidelines - but eventually adding sections, changing colors, using various browsers and rendering responsive views becomes a nightmare.
 
-By imposing some structure with a **Style Guide**, properly handling cross browser prefixes and some general best practices  - we can reduce the tangled rules that make pages difficult to manage and update.
+By imposing some structure with a **Style Guide**, properly handling cross browser prefixes and some general best practices, including utility first design- we can reduce the tangled rules that make pages difficult to manage and update.
 
 
 
@@ -14,8 +14,6 @@ This is a great practice but by extending the purpose of variables file by addin
 The basic properties of a style guide are colors, fonts, breakpoints, asset sizes.
 
 This would also be the location for simple but global styles. For example rules that apply to the body or html elements or use the * selector.
-
-*(get some feed back if this is necessary but I think it should be - because we should have fixed asset sizes, with the exception being if we want to increase or reduce a section based on asset height - right now its the other way around and this helps impose design or client to use correctly sized images).
 
 
 Through out the site we always want to reference the variables declared here - avoiding hardcoded colors even for black and white.
@@ -39,6 +37,15 @@ Note: Normalize CSS in included with bootstrap - so if you are using Bootstrap (
 
 # What about our CSS
 Now that we have the basic style guide lines covered what about our css?
+
+Before we write a line of css lets consider utility first design.
+
+Whether leveraging Bootstrap 4 utility classes or another framework like [Tailwind](https://tailwindcss.com/docs/what-is-tailwind/)
+We can use their classes to provide padding, margins, display properties and [much more](https://tailwindcss.com/docs/text-color) borders and hover states.
+
+This these classes can help quickly and uniformly control these properties.
+
+Not all designs can be handed with utility classes and in those cases we can move to CSS and the follow some guidelines.
 
 ## Scope
 On of the biggest issues we've faced is lack of scope for a component or page. Which leads to the "short blanket" problem where you fix one section and it break another. That section gets fixed and now the initial section breaks.
@@ -214,8 +221,6 @@ Sometimes odd things happen and you have to use an unusual rule - if thats the c
 If you are given a unique situation and need to find a css rule that is new to you use [can I use](https://caniuse.com/) to check its support.
 if for example a rule has no support on firefox then it not worth using at this point at all.
 
-##Formatting
-** speak steven  About ES Lint and Prettier
 
 ##Pixel Perfect Translations.
 
