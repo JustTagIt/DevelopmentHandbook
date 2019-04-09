@@ -105,7 +105,7 @@ export default (props)=>(
   )
 ```
 
-Alternatively you have the option of separating out style sheets and using an sass import to include them in one main style sheet.
+
 
 ex.
 
@@ -191,7 +191,6 @@ If you need to overwrite bootstrap class globally create a `bootstrap-overwrite.
 This is a good practice even if you are not using a CDN and load the bootstrap stylesheet classes locally.
 
 ### Media queries
-** ELABORATE ON THIS SECTION
 Avoid numerous media queries within selectors
 
 Add one media query for each break point as the last section within a scoped style sheet.
@@ -235,4 +234,4 @@ Sometimes tablet or mobile versions of sections go beyond what media queries can
 ## Styled components
 
 As a rule we wont enforce styled components over using style sheets however by default they solve two of our issues
-Cross browser vendor prefixes and component scoping...
+Cross browser vendor prefixes and component scoping.
